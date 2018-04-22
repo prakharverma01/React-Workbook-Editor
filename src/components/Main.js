@@ -1,11 +1,9 @@
 import React, { Component } from 'react';
-import {addElement} from './helpers/addElement'
+import {addElement} from '../helpers/addElement'
 
 class Main extends Component {
   constructor(props) {
     super(props);
-
-
   }
   render() {
     return (

@@ -1,7 +1,8 @@
 import React, { Component } from 'react';
 import SideNav from './components/sideNav';
 import TopBar from './components/topBar';
-import {addElement} from './helpers/addElement'
+import Main from './components/Main';
+
 class App extends Component {
   constructor(props) {
     super(props);
@@ -19,16 +20,9 @@ class App extends Component {
         <br></br>
         <br></br>
         <br></br>
-        <div>
-          <input type="text" id="start" placeholder="Untitled item..."/>  
-        <br></br>
-        <br></br>        
-          <input type="text" id="subs" placeholder="SubHeadings goes here !" onKeyPress={(e)=>{addElement(e)}}/><br></br>
-        </div>    
-        <div id="adds" className="addsClass">
+        <Main/>
         <br></br>
         </div> 
-      </div>
     );
   }
 }
