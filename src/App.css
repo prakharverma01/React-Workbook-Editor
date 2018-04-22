@@ -1,0 +1,123 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+  background-color: #222;
+  height: 150px;
+  padding: 20px;
+  color: white;
+}
+
+.App-title {
+  font-size: 1.5em;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+.row{
+  height: 1cm;
+  background: #f2f2f2;
+  vertical-align: text-bottom;
+
+}
+
+.row1{
+  height: 1cm;
+  background: #f2f2f2;
+  box-shadow: 2px 2px 4px #737373;
+  vertical-align: text-bottom;
+}
+.addShadow:hover{
+  box-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+  background: #0d26ff;
+  color: whitesmoke;
+  text-align: center;
+}
+
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+.small-fonts{
+  font-size: 3px;
+}
+
+
+
+.sidenav {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #818181;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+}
+
+.sidenav a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 10px;
+  color:    #111;
+  display: block;
+  transition: 0.3s;
+}
+
+.sidenav a:hover {
+  color: #f1f1f1;
+}
+
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+@media screen and (max-height: 450px) {
+.sidenav {padding-top: 15px;}
+.sidenav a {font-size: 18px;}
+}
+
+input#start {
+  border: none;
+  font-size: 40px;
+}
+
+.addsClass div {
+  border: none;
+  font-size: 15px;
+} 
+
+.addsClass input {
+  border: none;
+  font-size: 15px;
+} 
+
+input#subs {
+  border: none;
+  font-size: 15px;
+}
+
+input:focus{
+  outline: none;
+}
+
+::placeholder { 
+  color:   #d9d9d9;
+  font-family: Arial, Helvetica, sans-serif;
+}
